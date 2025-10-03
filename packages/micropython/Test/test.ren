@@ -1,0 +1,20 @@
+# Test.ren
+name: Test Package
+version: 1.0.0
+author: hoover CREATIONS
+description: A simple test package that says hello
+
+def hello():
+    print("Hello from hoover CREATIONS!")
+    print("This is a test package for Pyin3.3")
+
+def greet(name):
+    print(f"Hello {name}! Welcome to Pyin3.3!")
+
+class TestClass:
+    def __init__(self):
+        self.creator = "hoover CREATIONS"
+    
+    def info(self):
+        print(f"Test package created by {self.creator}")
+        print("Package working correctly!")
